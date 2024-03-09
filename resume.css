@@ -1,0 +1,127 @@
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.788);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+  }
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+  }
+.logo:hover {
+    color: orangered;
+    text-shadow: 0 0 25px orangered;
+    transform: scale(1.1);
+  }
+  
+  span {
+    color: orangered;
+  }
+.navbar a {
+    color: white;
+    font-weight: 500;
+    margin: 2rem;
+  }
+.navbar a:hover,
+.navbar a:active {
+    color: orangered;
+    border-bottom: 2px solid orangered;
+  }
+.contact {
+    padding: 8px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+.contact:hover {
+    background-color: orangered;
+    color: white;
+  }
+.box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;}
+    span{
+      color: orangered;
+  }
+  .header{
+      font-size: 40px;
+      display: flex;;
+  
+  }
+  
+  .container {
+      display: flex;
+      gap: 10rem; 
+      margin-left: 300px; 
+      padding-top: 200px; 
+  }
+  .card h1{
+      font-size: 50px;
+  }
+  .card p {
+      font-size: 35px;
+  }
+  .card-1 h1{
+    font-size: 50px;
+  }
+  .card-1 li{
+      font-size: 35px;
+  }
+  .container-1{
+    display: flex;
+    gap: 10rem;
+    margin-left: 300px;
+    padding-top: 200px;
+    
+  }
+  footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .social-icons {
+    margin-right: 20px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .social-icons a:last-child img {
+    margin-right: 0;
+  }
